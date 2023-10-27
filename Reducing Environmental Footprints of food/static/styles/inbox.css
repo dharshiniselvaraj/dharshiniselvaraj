@@ -1,0 +1,63 @@
+h1 {
+    padding: 30px;
+}
+
+/* Accept button */
+.accept-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+/* Decline button */
+.decline-btn {
+    background-color: #B22222;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+/* Hover effects */
+.accept-btn:hover,
+.decline-btn:hover {
+    opacity: 1;
+}
+
+/* Inbox button */
+.inbox-btn {
+    background-color: #9CCBF7;
+    color: black;
+    padding: 16px 16px;
+    border: none;
+    border-radius: 1vh;
+    cursor: pointer;
+    opacity: 0.9;
+    width: 180px;
+    position: relative;
+    margin-right: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.inbox-btn:hover {
+    opacity: 1;
+}
+
+.inbox-btn .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: #B22222;
+    color: white;
+}
