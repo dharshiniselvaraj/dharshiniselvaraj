@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+
+    <title>MAD O DONA - Register</title>
+
+    <!-- Favicon, CSS & JS -->
+    <link rel="icon" href="static/assets/logo.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="static/styles/common.css">
+    <link rel="stylesheet" href="static/styles/register.css">
+    <script src="static/js/client.js" defer></script>
+
+    <!-- Font Awesome icons CDN -->
+    <script src="https://use.fontawesome.com/4e51920be5.js"></script>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+</head>
+
+<body class="bg-light" onload="getRegister()">
+
+    <section class="container">
+
+        <h1 class="center">Mad O Dona - REGISTRATION FORM</h1>
+
+        <div id="user-info"></div>
+
+        <form action="/login" class="form-container" method="POST">
+
+            <p><b>Name:</b></p>
+            <input type="text" name="name-input" placeholder="Enter your name" />
+            
+            <p><b>Username:</b></p>
+            <input type="text" name="username-input" placeholder="Username" />
+
+            <p><b>Email:</b></p>
+            <input type="text" name="email-input" placeholder="Enter your email" />
+            
+            <p><b>Password:</b></p>
+            <input type="password" name="password-input" placeholder="Enter your password" />
+
+            <p><b>Please register as charity or restaurant:</b></p>
+            <select name="user-type">
+                <option value="" disabled selected>Select user type here</option>
+                <option value="charity">Charity</option>
+                <option value="restaurant">Restaurant</option>
+            </select>
+            
+
+            <input type="submit" class="register-btn" value="Register">
+        </form>
+
+    </section>
+
+</body>
+
+</html>

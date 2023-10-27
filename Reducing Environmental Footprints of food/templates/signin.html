@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>FeedOn - Sign In</title>
+
+    <!-- Favicon, CSS & JS -->
+    <link rel="icon" href="static/assets/logo.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="static/styles/style.css">
+    <script src="static/js/script.js" defer></script>
+
+</head>
+
+<body class="bg-light center container" onload="handleSignInPage()">
+    <div class="wrapper">
+    <header>Sign In</header>
+    <form action="#">
+      <div class="field email">
+        <div class="input-area">
+          <input type="text" placeholder="Email Address">
+          <i class="icon fas fa-envelope"></i>
+          <i class="error error-icon fas fa-exclamation-circle"></i>
+        </div>
+        <div class="error error-txt">Email can't be blank</div>
+      </div>
+      <div class="field password">
+        <div class="input-area">
+          <input type="password" placeholder="Password">
+          <i class="icon fas fa-lock"></i>
+          <i class="error error-icon fas fa-exclamation-circle"></i>
+        </div>
+        <div class="error error-txt">Password can't be blank</div>
+      </div>
+      <div class="pass-txt"><a href="#">Forgot password?</a></div>
+      <input type="submit" value="Login">
+    </form>
+    <div class="sign-txt">Not yet member? <a href="register.html" id=register-button>Register now</a></div>
+  </div>
+
+  <script src="/static/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mad O Dona - Inbox</title>
+
+    <!-- Favicon, CSS & JS -->
+    <link rel="icon" href="static/assets/logo.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="static/styles/common.css">
+    <link rel="stylesheet" href="static/styles/inbox.css">
+    <script src="static/js/client.js" defer></script>
+
+</head>
+
+<body class="bg-dark">
+
+    <h1 class="center">DONATION OFFERS</h1>
+
+    <!-- Donation card -->
+    <div class="center">
+        <button onclick="listUnreadInbox()" class="inbox-btn">UNREAD
+            <span id="numOfUnread" class="badge">
+            </span>
+        </button>
+        <button onclick="listAcceptedInbox()" class="inbox-btn">ACCEPTED</button>
+        <button onclick="listDeclinedInbox()" class="inbox-btn">DECLINED</button>
+    </div>
+
+    <div class="data container"></div>
+
+    <hr class="center">
+
+</body>
+</html>
